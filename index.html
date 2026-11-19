@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hải Sản Tươi Sống Nha Trang - Khánh Hòa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hero-banner {
+            background: linear-gradient(rgba(0, 51, 102, 0.7), rgba(0, 51, 102, 0.7)), 
+                        url('https://images.unsplash.com/photo-1559737558-2f5a35f4523b?auto=format&fit=crop&w=1350&q=80') center/cover;
+            color: white;
+            padding: 80px 0;
+        }
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body class="bg-light">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">🦀 HẢI SẢN TƯƠI SỐNG</a>
+            <div class="ms-auto text-white small">
+                Hotline đặt hàng: <strong>0905.123.456</strong>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Banner -->
+    <header class="hero-banner text-center">
+        <div class="container">
+            <h1 class="display-5 fw-bold">Hải Sản Tươi Sống Đánh Bắt Trong Ngày</h1>
+            <p class="lead mb-4">Giao hàng hỏa tốc tận nơi — Cam kết tươi ngon 100%</p>
+            <a href="#san-pham" class="btn btn-warning btn-lg fw-bold px-4">Xem Bảng Giá Hôm Nay</a>
+        </div>
+    </header>
+
+    <!-- Danh sách sản phẩm -->
+    <main id="san-pham" class="container my-5">
+        <h2 class="text-center fw-bold mb-4 text-primary">DANH MỤC HẢI SẢN NỔI BẬT</h2>
+        <div class="row g-4">
+            <!-- SP 1 -->
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm border-0">
+                    <img src="https://images.unsplash.com/photo-1559737558-2f5a35f4523b?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Tôm hùm">
+                    <div class="card-body">
+                        <span class="badge bg-danger mb-2">Bán chạy</span>
+                        <h5 class="card-title fw-bold">Tôm Hùm Bông Loại 1</h5>
+                        <p class="card-text text-muted small">Size 0.8kg - 1.2kg/con, thịt chắc ngọt, bắt sống tại bể.</p>
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                            <span class="fs-5 fw-bold text-danger">1.250.000đ/kg</span>
+                            <button class="btn btn-outline-primary btn-sm" onclick="alert('Đã thêm Tôm Hùm Bông vào giỏ hàng!')">Đặt ngay</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SP 2 -->
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm border-0">
+                    <img src="https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Cua biển">
+                    <div class="card-body">
+                        <span class="badge bg-success mb-2">Tươi sống</span>
+                        <h5 class="card-title fw-bold">Cua Gạch Son Năm Căn</h5>
+                        <p class="card-text text-muted small">Bao đầy gạch, dây trói không trọng lượng, size 3 con/kg.</p>
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                            <span class="fs-5 fw-bold text-danger">680.000đ/kg</span>
+                            <button class="btn btn-outline-primary btn-sm" onclick="alert('Đã thêm Cua Gạch Son vào giỏ hàng!')">Đặt ngay</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SP 3 -->
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm border-0">
+                    <img src="https://images.unsplash.com/photo-1599084993091-1cb5c0721cc6?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Mực lá">
+                    <div class="card-body">
+                        <span class="badge bg-info text-dark mb-2">Trong ngày</span>
+                        <h5 class="card-title fw-bold">Mực Lá Câu Đại Dương</h5>
+                        <p class="card-text text-muted small">Mực dày mình, giòn ngọt, thích hợp nướng muối ớt hoặc hấp gừng.</p>
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                            <span class="fs-5 fw-bold text-danger">390.000đ/kg</span>
+                            <button class="btn btn-outline-primary btn-sm" onclick="alert('Đã thêm Mực Lá Câu vào giỏ hàng!')">Đặt ngay</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <div class="container small">
+            © 2026 Cửa Hàng Hải Sản Tươi Sống — Domain: huynhthanhtrinh.io.vn
+        </div>
+    </footer>
+
+</body>
+</html>
